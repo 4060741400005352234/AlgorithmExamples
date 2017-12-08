@@ -15,7 +15,7 @@ public class InsertionSort {
         for (int i = 1; i < input.length; i++) {
             int currentValue = input[i];
             int j = i;
-            while (j > 0 && input[j - 1] > currentValue) {
+            while (j > 0 && currentValue < input[j - 1]) {
                 input[j] = input[j - 1];
                 j--;
             }

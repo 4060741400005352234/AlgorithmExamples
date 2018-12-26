@@ -10,6 +10,7 @@ public class PointsCover {
         System.out.println("Covered with " + lines + " lines");
     }
 
+    // O(nLogN) = T(sort) + O(n)
     private static int coverPoints(int[] points, int lineLength) {
         Arrays.sort(points);
         int min = 1;

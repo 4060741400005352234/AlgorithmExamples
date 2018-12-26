@@ -7,6 +7,7 @@ public class PointsCover {
     public static void main(String[] args) {
         int[] points = new int[] {1, 2, 5, 6, 9, 11, 13};
         int lines = coverPoints(points, 1);
+
         System.out.println("Covered with " + lines + " lines");
     }
 
